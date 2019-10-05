@@ -8,5 +8,5 @@ setup(name='basicai',
       author_email='dejan.batanjac@gmail.com',
       license='Apache 2.0',
       packages=['basicai'],
-      install_requires = ['torch>=1.0', 'numpy'],
+      install_requires = ['torch>=1.0', 'numpy', 'matplotlib'],
       zip_safe=False)
